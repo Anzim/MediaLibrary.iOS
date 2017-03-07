@@ -21,8 +21,8 @@ protocol AssetProtocol {
     var folderId: Int { get }
     var privacy: Privacy { get }
     var downloadable: Bool { get }
-    var addDate: Date? { get }
-    var updateDate: Date? { get }
+    var addDate: String { get }
+    var updateDate: String { get }
 }
 
 protocol FolderProtocol : AssetProtocol {

@@ -27,8 +27,8 @@ protocol TrackProtocol {
     var privacy: Privacy { get }
     var fileSize: Int { get }
     var duration: String { get }
-    var addDate: Date? { get }
-    var updateDate: Date? { get }
+    var addDate: String { get }
+    var updateDate: String { get }
 }
 
 extension TrackProtocol {

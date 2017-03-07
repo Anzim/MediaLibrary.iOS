@@ -69,9 +69,9 @@ class Asset: NSObject {
     var folderId: Int = 0
     var privacy = Privacy.Private
     var downloadable: Bool = false
-    var addDate: Date? = nil//String = ""
+    var addDate: String = "" //Date? = nil
 //    var addDateValue: Date? = nil
-    var updateDate: Date? = nil //String = ""
+    var updateDate: String = "" //Date? = nil
     
     func propertyTitle(property: String) -> String {
         return Asset.propertyTitles[property] ?? property
