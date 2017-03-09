@@ -94,11 +94,13 @@ class Asset: NSObject {
                     value = "Неопубликовано"
                 }
                 continue
-            } else if let dateValue = value as? String, key.contains("Date") {
-                let dateFormater = DateFormatter()
-                let date = dateFormater.date(from: dateValue)
-                value = date as Any
-            }
+            } //else if let dateValue = value as? String, key.contains("Date") {
+//                let dateFormater = DateFormatter()
+//                dateFormater.dateStyle = .medium ??
+//                dateFormater.timeStyle = .medium ??
+//                let date = dateFormater.date(from: dateValue)
+////                value = date as Any
+//            }
             
             if (self.responds(to: NSSelectorFromString(key))) { // If property exists
                 if (value is NSNull) {

@@ -27,6 +27,7 @@
 		558556C91DD6F6300010B23D /* FolderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558556C81DD6F6300010B23D /* FolderTableViewCell.swift */; };
 		558556CB1DD99D5D0010B23D /* AudioPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558556CA1DD99D5D0010B23D /* AudioPlayerViewController.swift */; };
 		558556CE1DD99F200010B23D /* CMTime+durationText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558556CD1DD99F200010B23D /* CMTime+durationText.swift */; };
+		55C8C0401E706A9800F6374D /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C8C03F1E706A9800F6374D /* Globals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		558556C81DD6F6300010B23D /* FolderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolderTableViewCell.swift; sourceTree = "<group>"; };
 		558556CA1DD99D5D0010B23D /* AudioPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayerViewController.swift; sourceTree = "<group>"; };
 		558556CD1DD99F200010B23D /* CMTime+durationText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CMTime+durationText.swift"; sourceTree = "<group>"; };
+		55C8C03F1E706A9800F6374D /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 			children = (
 				558556941DD31D200010B23D /* MediaDataProvider.swift */,
 				558556C01DD454930010B23D /* MediaDataSource.swift */,
+				55C8C03F1E706A9800F6374D /* Globals.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 				558556CE1DD99F200010B23D /* CMTime+durationText.swift in Sources */,
 				558556B41DD31D200010B23D /* DataProvider.swift in Sources */,
 				558556AC1DD31D200010B23D /* TrackDetailViewController.swift in Sources */,
+				55C8C0401E706A9800F6374D /* Globals.swift in Sources */,
 				558556B31DD31D200010B23D /* Folder.swift in Sources */,
 				558556C11DD454930010B23D /* MediaDataSource.swift in Sources */,
 				558556BB1DD3976A0010B23D /* Track.swift in Sources */,

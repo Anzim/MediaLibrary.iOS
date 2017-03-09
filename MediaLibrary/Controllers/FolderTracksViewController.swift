@@ -92,8 +92,6 @@ class FolderTracksViewController: UIViewController {
             controller.track = cell.track
         }
     }
- 
-
 }
 
 extension FolderTracksViewController: UITableViewDelegate {
